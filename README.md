@@ -1,4 +1,4 @@
-# 🧪 Bun Playground
+# 🧪 Learning Bun
 
 This repository is my personal exploration of **Bun**, a fast all-in-one JavaScript runtime, bundler, test runner, and package manager.
 
