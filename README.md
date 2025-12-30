@@ -1,15 +1,17 @@
-# bun-test
+# 🧪 Bun Playground
 
-To install dependencies:
+This repository is my personal exploration of **Bun**, a fast all-in-one JavaScript runtime, bundler, test runner, and package manager.
 
-```bash
-bun install
-```
+The goal of this project is to learn how Bun works, compare it with Node.js, and experiment with its features through small demos, scripts, and mini-projects.
 
-To run:
+---
 
-```bash
-bun run index.ts
-```
+## 🚀 What is Bun?
 
-This project was created using `bun init` in bun v1.3.5. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+[Bun](https://bun.sh/) is a modern JavaScript runtime designed for speed. It includes:
+
+- ⚡ Fast JavaScript runtime
+- 📦 Built-in package manager
+- 🧪 Native test runner
+- 📁 Bundler and transpiler
+- 🔥 Node.js compatibility (with improvements)
