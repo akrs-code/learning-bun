@@ -13,9 +13,16 @@ const server = Bun.serve({
             return new Response("About me!")
         }
         if(url.pathname === '/contact'){
-            return new Response("Contact me")
+            throw new Error('Could not fetch feed')
         }
         return new Response('404!')
+    },
+    error(error){
+        return new Response (`<pre> ${error} \n ${error.stack} </pre>`,{
+            headers: {
+                'Content-Type':'text/html'
+            }
+        })
     }
 })
 
